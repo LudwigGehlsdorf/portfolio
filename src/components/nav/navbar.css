@@ -1,0 +1,23 @@
+.navbar {
+    display: grid;
+    height: 5%;
+    width: 100%;
+
+    grid-template-columns: 1fr 5fr 3fr;
+    grid-template-rows: 1fr;
+
+    justify-items: center;
+    align-items: center;
+} 
+
+.navbar-list-container {
+    width: 100%;
+    grid-row: 1 / 1;
+    grid-column: 3 / 3;
+}
+
+.navbar-list-container ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
